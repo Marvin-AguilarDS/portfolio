@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { asset } from '@/lib/asset'
 
 /**
  * Frames the portrait in a gilded, breathing halo — the way an Expedition
@@ -40,7 +41,7 @@ export function Avatar({
       />
       <div className="absolute inset-0 overflow-hidden rounded-full border border-gilt/40 bg-obscur-ink shadow-[0_0_40px_-8px_rgba(233,196,106,0.5)]">
         <img
-          src={src}
+          src={asset(src)}
           alt={alt}
           className="h-full w-full object-cover"
           style={{ objectPosition: '50% 20%' }}

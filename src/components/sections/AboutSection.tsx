@@ -1,5 +1,6 @@
 import { SectionShell } from '@/components/layout/SectionShell'
 import { Avatar, Button, Eyebrow, Icon, Rise, SocialLinks } from '@/components/ui'
+import { asset } from '@/lib/asset'
 import type { Profile } from '@/types/portfolio'
 
 export function AboutSection({
@@ -38,7 +39,7 @@ export function AboutSection({
           ))}
           {profile.resumeUrl && (
             <Rise>
-              <Button href={profile.resumeUrl} variant="solid">
+              <Button href={asset(profile.resumeUrl)} variant="solid">
                 <Icon name="external" className="h-4 w-4" />
                 Download résumé
               </Button>

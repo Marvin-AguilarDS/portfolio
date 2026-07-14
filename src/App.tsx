@@ -5,11 +5,14 @@ import { PortfolioProvider } from './context/PortfolioContext'
 import { MenuPage } from './pages/MenuPage'
 import { SectionPage } from './pages/SectionPage'
 
+// Serve routes under the deployment base (e.g. '/portfolio' on GitHub Pages).
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || '/'
+
 export default function App() {
   return (
     <main className="expedition-grain relative min-h-screen w-full">
       <ErrorBoundary>
-        <BrowserRouter>
+        <BrowserRouter basename={basename}>
           <PortfolioProvider>
             <Routes>
               <Route element={<Layout />}>

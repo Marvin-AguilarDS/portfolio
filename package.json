@@ -6,7 +6,7 @@
   "description": "Marvin Aguilar — Software Engineer II. An Expedition 33-themed personal portfolio.",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx"
   },

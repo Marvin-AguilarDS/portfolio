@@ -10,7 +10,9 @@
 // or a properly licensed copy).
 // ---------------------------------------------------------------------------
 
-export const MUSIC_SRC = import.meta.env.VITE_MUSIC_SRC ?? '/audio/theme.wav'
+import { asset } from './asset'
+
+export const MUSIC_SRC = import.meta.env.VITE_MUSIC_SRC ?? asset('/audio/theme.wav')
 
 /** Soft ambient level (0–1). */
 export const MUSIC_VOLUME = 0.2
