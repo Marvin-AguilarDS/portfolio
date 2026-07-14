@@ -7,6 +7,8 @@ gilded chapter navigation, drifting embers, and painterly motion.
 Built as an **isolated** project: React + TypeScript + Tailwind + Framer Motion,
 with **no external company libraries**.
 
+**🌐 Live site: https://marvin-aguilards.github.io/portfolio/**
+
 ---
 
 ## ✦ Features
