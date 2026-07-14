@@ -1,0 +1,39 @@
+[
+  {
+    "category": "Languages",
+    "items": [
+      { "name": "TypeScript", "level": 92 },
+      { "name": "JavaScript", "level": 90 },
+      { "name": "Java", "level": 78 },
+      { "name": "Python", "level": 72 },
+      { "name": "SQL", "level": 75 }
+    ]
+  },
+  {
+    "category": "Frontend",
+    "items": [
+      { "name": "React", "level": 90 },
+      { "name": "Tailwind CSS", "level": 85 },
+      { "name": "Framer Motion", "level": 70 },
+      { "name": "Accessibility (a11y)", "level": 78 }
+    ]
+  },
+  {
+    "category": "Backend & Data",
+    "items": [
+      { "name": "Node.js", "level": 85 },
+      { "name": "MongoDB", "level": 76 },
+      { "name": "PostgreSQL", "level": 74 },
+      { "name": "Kafka", "level": 65 }
+    ]
+  },
+  {
+    "category": "Platform & Tooling",
+    "items": [
+      { "name": "Docker", "level": 80 },
+      { "name": "Kubernetes", "level": 66 },
+      { "name": "CI/CD", "level": 82 },
+      { "name": "Git", "level": 90 }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "edu-bsc",
+    "institution": "Placeholder University",
+    "credential": "B.Sc. Computer Science",
+    "field": "Software Engineering",
+    "period": "2016 — 2020",
+    "location": "Placeholder City",
+    "notes": [
+      "Graduated with honors; focus on distributed systems and web engineering.",
+      "Led the student developer club and organized two internal hackathons."
+    ]
+  },
+  {
+    "id": "edu-cert-cloud",
+    "institution": "Cloud Provider Academy",
+    "credential": "Cloud Developer — Associate",
+    "field": "Cloud & Infrastructure",
+    "period": "2022",
+    "location": "Online",
+    "notes": [
+      "Certified in designing and operating scalable services on managed cloud infrastructure."
+    ]
+  },
+  {
+    "id": "edu-cert-k8s",
+    "institution": "CNCF",
+    "credential": "Certified Kubernetes Application Developer (CKAD)",
+    "field": "Container Orchestration",
+    "period": "2023",
+    "location": "Online",
+    "notes": [
+      "Hands-on certification covering deployments, config, observability, and troubleshooting."
+    ]
+  }
+]

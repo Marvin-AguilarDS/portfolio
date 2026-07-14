@@ -1,0 +1,15 @@
+{
+  "name": "Marvin Aguilar",
+  "title": "Software Engineer II",
+  "tagline": "I build resilient, elegant systems — one commit at a time.",
+  "location": "Remote · LATAM",
+  "epigraph": "When one falls, we continue. — Expedition motto",
+  "avatarUrl": "/avatar/marvin.png",
+  "summary": [
+    "Software Engineer II with a focus on full-stack web development, distributed systems, and developer experience. I care about code that is correct, readable, and kind to the next engineer who touches it.",
+    "I have shipped production features across React/TypeScript front ends and JVM & Node back ends, comfortable owning a slice end-to-end: schema, service, UI, and the tests that keep it honest.",
+    "Off the clock you'll find me replaying story-driven RPGs, sketching UI ideas, and over-engineering my personal projects for the joy of it."
+  ],
+  "resumeUrl": "/marvin-aguilar-resume.pdf",
+  "_socials": "Managed centrally in links.json — do not add here."
+}

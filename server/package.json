@@ -1,0 +1,16 @@
+{
+  "name": "porfolio-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reference MongoDB-backed API for the portfolio's mongo data adapter.",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}

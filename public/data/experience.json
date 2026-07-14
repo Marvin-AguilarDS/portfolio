@@ -1,0 +1,43 @@
+[
+  {
+    "id": "exp-datasite-se2",
+    "role": "Software Engineer II",
+    "company": "Datasite",
+    "period": "2023 — Present",
+    "location": "Remote",
+    "summary": "Building and maintaining features across a large microservice platform serving secure M&A data rooms.",
+    "highlights": [
+      "Delivered end-to-end features spanning React/TypeScript UIs and backend services with a focus on reliability and observability.",
+      "Reduced flaky test noise and improved CI signal, unblocking faster and more confident deploys for the squad.",
+      "Collaborated across squads to align on shared contracts, cutting integration friction on cross-team initiatives."
+    ],
+    "stack": ["TypeScript", "React", "Java", "Kafka", "MongoDB", "Kubernetes"]
+  },
+  {
+    "id": "exp-prev-se1",
+    "role": "Software Engineer",
+    "company": "Placeholder Labs",
+    "period": "2021 — 2023",
+    "location": "Hybrid",
+    "summary": "Full-stack development on customer-facing web applications and internal tooling.",
+    "highlights": [
+      "Shipped a component library that standardized UI across three product surfaces.",
+      "Introduced type-safe API clients, eliminating a whole class of runtime integration bugs.",
+      "Mentored two junior engineers through their first production launches."
+    ],
+    "stack": ["TypeScript", "React", "Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "exp-intern",
+    "role": "Software Engineering Intern",
+    "company": "Placeholder Startup",
+    "period": "2020 — 2021",
+    "location": "On-site",
+    "summary": "Contributed to feature work and bug fixes on a fast-moving product team.",
+    "highlights": [
+      "Automated a manual reporting workflow, saving the team several hours each week.",
+      "Wrote the first integration test suite for a legacy service."
+    ],
+    "stack": ["JavaScript", "Python", "Express", "MySQL"]
+  }
+]

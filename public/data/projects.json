@@ -1,0 +1,63 @@
+[
+  {
+    "id": "proj-lumiere",
+    "name": "Lumière",
+    "role": "Creator & Maintainer",
+    "year": "2025",
+    "description": "A self-hostable dashboard for tracking personal projects, with a plugin architecture and a keyboard-first UI.",
+    "highlights": [
+      "Designed a plugin API that lets third parties add panels without forking the core.",
+      "Full keyboard navigation and command palette for power users.",
+      "Ships as a single static bundle or a Dockerized service."
+    ],
+    "stack": ["React", "TypeScript", "Tailwind", "Vite"],
+    "repoUrl": "https://github.com/marvin-aguilar/lumiere",
+    "liveUrl": "https://example.com/lumiere",
+    "featured": true
+  },
+  {
+    "id": "proj-gustave",
+    "name": "Gustave Engine",
+    "role": "Author",
+    "year": "2024",
+    "description": "A small turn-based combat prototype exploring timing-based parry mechanics, built to learn game loops and state machines.",
+    "highlights": [
+      "Deterministic, frame-accurate turn resolution suitable for replays.",
+      "Data-driven skill definitions loaded from JSON.",
+      "60fps canvas renderer with a hand-rolled tween system."
+    ],
+    "stack": ["TypeScript", "Canvas", "Zustand"],
+    "repoUrl": "https://github.com/marvin-aguilar/gustave-engine",
+    "featured": true
+  },
+  {
+    "id": "proj-maelle",
+    "name": "Maelle CLI",
+    "role": "Author",
+    "year": "2024",
+    "description": "A developer CLI that scaffolds typed API clients from an OpenAPI spec, with sensible defaults and zero config.",
+    "highlights": [
+      "Generates fully typed clients with runtime validation.",
+      "Pluggable templates for fetch, axios, or custom transports.",
+      "Published to npm with a tidy, well-documented API."
+    ],
+    "stack": ["Node.js", "TypeScript", "OpenAPI"],
+    "repoUrl": "https://github.com/marvin-aguilar/maelle-cli",
+    "featured": false
+  },
+  {
+    "id": "proj-verso",
+    "name": "Verso Notes",
+    "role": "Author",
+    "year": "2023",
+    "description": "A local-first, markdown note-taking app with bidirectional links and offline sync.",
+    "highlights": [
+      "CRDT-based sync so edits merge cleanly across devices.",
+      "Instant full-text search over thousands of notes.",
+      "Works fully offline as a PWA."
+    ],
+    "stack": ["React", "TypeScript", "IndexedDB", "PWA"],
+    "repoUrl": "https://github.com/marvin-aguilar/verso-notes",
+    "featured": false
+  }
+]

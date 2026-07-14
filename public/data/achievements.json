@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ach-promo-se2",
+    "title": "Promotion to Software Engineer II",
+    "issuer": "Datasite",
+    "year": "2024",
+    "description": "Recognized for consistent end-to-end delivery, code quality, and cross-squad collaboration."
+  },
+  {
+    "id": "ach-hackathon",
+    "title": "Internal Hackathon — Best Developer Experience",
+    "issuer": "Datasite",
+    "year": "2024",
+    "description": "Built a tooling prototype that streamlined local environment setup for engineers."
+  },
+  {
+    "id": "ach-oss",
+    "title": "Open Source Contributor",
+    "issuer": "Community",
+    "year": "2023",
+    "description": "Merged contributions to popular TypeScript tooling libraries used across the ecosystem."
+  }
+]

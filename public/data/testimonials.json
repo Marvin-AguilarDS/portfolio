@@ -1,0 +1,23 @@
+[
+  {
+    "id": "t-lead",
+    "quote": "Marvin is the engineer you want on the hard problems — he goes deep, keeps the code clean, and leaves everything better than he found it.",
+    "author": "Placeholder Name",
+    "role": "Engineering Manager",
+    "company": "Datasite"
+  },
+  {
+    "id": "t-peer",
+    "quote": "Pairing with Marvin is a masterclass in pragmatism. He balances shipping fast with getting it right, and he always brings the team along.",
+    "author": "Placeholder Name",
+    "role": "Senior Software Engineer",
+    "company": "Placeholder Labs"
+  },
+  {
+    "id": "t-pm",
+    "quote": "He translates fuzzy product ideas into solid, well-tested features. Reliable, thoughtful, and genuinely a pleasure to work with.",
+    "author": "Placeholder Name",
+    "role": "Product Manager",
+    "company": "Placeholder Startup"
+  }
+]

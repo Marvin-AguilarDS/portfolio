@@ -1,0 +1,4 @@
+# SPA fallback so deep links (e.g. /projects) resolve to index.html.
+# Used by static hosts like Netlify. For Vercel, add a rewrite in vercel.json;
+# Vite dev/preview already fall back automatically.
+/*    /index.html    200
